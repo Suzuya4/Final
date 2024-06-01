@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Custom styles for UserProfilePage component */
+.userProfileContainer {
+    margin-top: 20px;
+  }
+  
+  .profileCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profileTitle {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .profileInfo {
+    margin-bottom: 5px;
+  }
+  
+  .profileActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .editButton {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Custom styles for Edit and Delete Dialogs */
+  .dialogTitle {
+    padding: 20px;
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .dialogContent {
+    padding: 20px;
+  }
+  
+  .dialogActions {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .confirmButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancelButton {
+    background-color: #ccc;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
